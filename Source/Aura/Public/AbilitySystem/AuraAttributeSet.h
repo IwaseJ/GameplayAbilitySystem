@@ -177,7 +177,7 @@ public:
 	void OnRep_CriticalHitDamage(const FGameplayAttributeData& OldCriticalHitDamage) const;
 	
 	UFUNCTION()
-	void OnRep_CriticalResistance(const FGameplayAttributeData& OldCriticalHitResistance) const;
+	void OnRep_CriticalHitResistance(const FGameplayAttributeData& OldCriticalHitResistance) const;
 
 	UFUNCTION()
 	void OnRep_HealthRegeneration(const FGameplayAttributeData& OldHealthRegeneration) const;
