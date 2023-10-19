@@ -63,7 +63,7 @@ void UOverlayWidgetController::BindCallbacksToDependencies()
 				if (Tag.MatchesTag(MessageTag))
 				{
 					const FUIWidgetRow* Row = GetDataTableRowByTag<FUIWidgetRow>(MessageWidgetDataTable, Tag);
-					MessageWidgetRowDelagate.Broadcast(*Row);
+					MessageWidgetRowDelegate.Broadcast(*Row);
 				}				
 			}
 		}
